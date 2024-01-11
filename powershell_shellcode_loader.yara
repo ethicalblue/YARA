@@ -4,7 +4,7 @@ rule powershell_shellcode_loader {
         author = "ethical.blue"
         filetype = "PowerShell Script"
         date = "2022-05-19"
-        reference = "https://ethical.blue/textz/n/29"
+        reference = "https://ethical.blue/"
     strings:
         $suspicious_base64 = "[System.Convert]::FromBase64String"
         $delegate_from_func_ptr = "[System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer"
