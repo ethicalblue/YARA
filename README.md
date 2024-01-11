@@ -1,2 +1,2 @@
-# YARA
+# Misc. YARA Code
 Miscellaneous YARA Files
